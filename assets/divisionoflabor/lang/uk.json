@@ -1,0 +1,19 @@
+{
+  "item-tools-simple": "Прості інструменти",
+  "item-tools-basic": "Базові інструменти",
+  "item-tools-standard": "Стандартні інструменти",
+  "item-tools-advanced": "Просунуті інструменти",
+  "item-basicbooster": "Базовий покращувач ґрунту",
+  "item-qualitybooster": "Якісний покращувач ґрунту",
+  "item-clothes-head-farm-hat": "Капелюх фермера",
+  "item-clothes-upperbody-lumberjack-shirt": "Сорочка лісоруба",
+  "itemdesc-basicbooster": "Назавжди збільшує всі максимальні значення поживних речовин ґрунту на 20%",
+  "itemdesc-qualitybooster": "Назавжди збільшує всі максимальні значення поживних речовин ґрунту на 40%",
+  "itemdesc-tools-basic": "<font color=\"#ff0000\">Заслабкі для ремонту латів</font>",
+  "block-metalpan-copper": "Мідний лоток для промивання",
+  "block-metalmininglantern-*": "Шахтарський ліхтар",
+  "block-primitivemininglantern-*": "Простий шахтарський ліхтар",
+  "block-coppercookingpot-burned": "Горщик для приготування їжі з міді",
+  "block-copperfryingpan-burned": "Сковорідка з міді",
+  "blockdesc-metalpan-copper": "За допомогою правильного лотка для промивання можна знаходити корисні копалини та мати підвищений шанс знайти самородки"
+}

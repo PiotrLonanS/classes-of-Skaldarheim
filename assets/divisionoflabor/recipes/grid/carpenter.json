@@ -1,0 +1,159 @@
+[
+	{
+		"ingredientPattern": "AWS",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"W": {
+				"type": "block",
+				"code": "game:log-*"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-*"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:firewood",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "AW",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"W": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "ALL",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-*-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "ALL",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ne-ud",
+				"allowedVariants": [
+					"aged",
+					"birch",
+					"oak",
+					"maple",
+					"pine",
+					"acacia",
+					"kapok",
+					"redwood",
+					"larch",
+					"baldcypress",
+					"walnut",
+					"ebony",
+					"purpleheart"
+				],
+				"name": "wood"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"recipeGroup": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "SP",
+		"requiresTrait": "carpenter",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*"
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 2,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:woodenpath-ns",
+			"quantity": 2
+		}
+	}
+]

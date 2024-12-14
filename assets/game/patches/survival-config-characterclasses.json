@@ -1,0 +1,63 @@
+[
+  {
+    "file": "config/characterclasses.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "code": "miner",
+      "traits": ["miner", "prospector", "myopic", "heavyhanded"],
+      "gear": []
+    }
+  },
+  {
+    "file": "config/characterclasses.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+        "code": "farmer",
+        "traits": [ "farmer", "greenthumb", "fleetfooted", "nervous", "nearsighted", "claustrophobic" ],
+        "gear": []
+    }
+  },
+  {
+    "file": "config/characterclasses.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+        "code": "lumberjack",
+        "traits": [ "lumberjack", "forester", "carpenter", "kind", "heavyhanded" ],
+        "gear": []
+    }
+  },
+  {
+    "file": "config/characterclasses.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+        "code": "blacksmith",
+        "traits": [ "burner", "mason", "smith", "nearsighted", "heavyhanded", "loud" ],
+        "gear": []
+    }
+  },
+  {
+    "file": "config/characterclasses.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+        "code": "alchemist",
+        "traits": [],
+        "gear": []
+    },
+    "dependsOn": [{"modid": "alchemy"}]
+  },
+  {
+    "file": "config/characterclasses.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+        "code": "squire",
+        "traits": [],
+        "gear": []
+    }
+  }
+]

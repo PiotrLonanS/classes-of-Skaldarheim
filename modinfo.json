@@ -1,0 +1,13 @@
+{
+  "type": "content",
+  "modid": "divisionoflabornocooknakedandafraid",
+  "name": "Division of Labor",
+  "description" : "Adds new classes and class items. A continuation of the More Classes mod by Mr1k3",
+  "authors": ["Lonan"],
+  "version": "1.0.8",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "dependencies": {
+    "game": "1.20.0rc1"
+  }
+}
